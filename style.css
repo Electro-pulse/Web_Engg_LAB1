@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h1{
+    font-style: italic;
+	background-color : cyan;
+   }
+body{
+    background-image:url("wallpaperflare.com_wallpaper (14).jpg");
+	background-position:centre;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+   }
+div{
+	background-color:#D3D3D3;
+	width : 200px;
+	padding:20px;
+	border:2px solid #ff00ff;
+	margin:10px;
+}
+p{
+	color:black;
+}
+li{
+	color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a:hover {
+  background-color: #111;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#mainmenu li{
+	width:120px;
+	border:3px;
+}
+#mainmenu a{
+	display:block;
+	padding: 2px;
+	text-decoration:none;
+}
